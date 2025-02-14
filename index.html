@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css?_v=20250214055138">
+    <title>главная</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-conteiner">
+                <div class="header-logo">
+                    <svg class='logo-icon3'>
+                        <use xlink:href='img/sprite.svg#logo-part3'>
+                    </svg>
+                    <svg class='logo-icon2'>
+                        <use xlink:href='img/sprite.svg#logo-part2'>
+                    </svg>
+                    <svg class='logo-icon1'>
+                        <use xlink:href='img/sprite.svg#logo-part1'>
+                    </svg>
+                </div>
+                <div class="butBurgerBox">
+                    <button class="nav-button-burger" type="button" id="nav-button-burger">
+                        <div class="stick stick-1 close"></div>
+                        <div class="stick stick-2 close"></div>
+                        <div class="stick stick-3 close"></div>
+                    </button>
+                </div>
+                <nav class="nav-body" id="nav-body-burger">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Offers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Affiliate programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Knoweledge Base</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-contact">
+                    <div class="header-contact-number">
+                        <a href="tel:+1 (888) 918 0798"><svg class='phone-icon'>
+                                <use xlink:href='img/sprite.svg#phone'>
+                            </svg>+1 (888) 918 0798</a>
+                    </div>
+                    <div class="header-buttons">
+                        <button type="submit">Login</button>
+                        <button type="submit">Join</button>
+                    </div>
+                </div>
+            </div>
+            <div class="header-section">
+                <div class="header-section_conteiner">
+                    <h1 class="header-section_title title">Referral program for <span>publishers</span> </h1>
+                    <div class="header-section_text">
+                        <p>Join GFLeads’ referral program and unlock new revenue streams. Publishers can earn by</p>
+                        <p>partnering with us to drive high-quality leads for various industries, benefiting from </p>
+                        <p>competitive payouts, transparent tracking, and dedicated support for maximum success.</p>
+                    </div>
+                    <ul class="header-section_list">
+                        <li>
+                            <p>100+ Active advertisers</p>
+                        </li>
+                        <li>
+                            <p>200+ Qualified leads delivered daily</p>
+                        </li>
+                        <li>
+                            <p>98% Payout rate for publishers</p>
+                        </li>
+                        <li>
+                            <p>99% Customer satisfaction rat</p>
+                        </li>
+                    </ul>
+                    <button class="header-buton-join" type="button">Join our network </button>
+                </div>
+                <div class="header-section_img">
+                    <picture>
+                        <source srcset="img/image-income.webp" type="image/webp"><img src="img/image-income.jpg" alt="">
+                    </picture>
+                    <button type="button" class="button-share-icon">
+                        <a href="#share" class="popup-link">
+                            <svg class='header-share-icon'>
+                                <use xlink:href='img/sprite.svg#share'>
+                            </svg>
+                        </a>
+                    </button>
+                    <button type="button" class="button-message-icon">
+                        <a href="#massage" class="popup-link">
+                            <svg class='header-message-icon'>
+                                <use xlink:href='img/sprite.svg#tab-massege'>
+                            </svg>
+                        </a>
+                    </button>
+                    <span class="span-disk1-img"></span>
+                    <span class="span-disk2-img"></span>
+                    <p>Your affiliate income<svg class='header-income-icon'>
+                            <use xlink:href='img/sprite.svg#income-show'>
+                        </svg></p>
+                </div>
+            </div>
+            <div id="share" class="popup">
+                <div class="popup__body">
+                    <div class="popup__content">
+                        <div class="popup-content-share">
+                            <p class="close-popup">X</p>
+                            <button><a href="#">
+                                    <svg class='icon-telegram'>
+                                        <use xlink:href='img/sprite.svg#icon-telegram'>
+                                    </svg>
+                                </a></button>
+                            <button><a href="#">
+                                    <svg class='icon-instagram'>
+                                        <use xlink:href='img/sprite.svg#icon-instagram'>
+                                    </svg>
+                                </a></button>
+                            <button><a href="#">
+                                    <svg class='icon-youtube'>
+                                        <use xlink:href='img/sprite.svg#youtube-icon'>
+                                    </svg>
+                                </a></button>
+                            <button><a href="#">
+                                    <svg class='icon-facebook'>
+                                        <use xlink:href='img/sprite.svg#icon-facebook'>
+                                    </svg>
+                                </a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="massage" class="popup">
+                <div class="popup__body">
+                    <div class="popup__content">
+                        <div class="popup-content-massage">
+                            <p class="close-popup">X</p>
+                            <div>
+                                <label name="email" class="form-label">Email address</label> <br>
+                                <input type="email" class="form-email" placeholder="name@example.com">
+                            </div>
+                            <div>
+                                <label class="form-label">Example textarea</label> <br>
+                                <textarea class="form-massage"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="cause-partnership_conteiner">
+                <h2 class="cause-partnership_title">Why affiliate publishers should join GFLeads</h2>
+                <div class="couse-partnership_contents">
+                    <div class="cause-partnership_content-card1">
+                        <div class="content-card1_items">
+                            <h3 class="content-card-title">Competitive payouts</h3>
+                            <p class="content-card-text">
+                                <span>Earn attractive commissions for every</span>
+                                <span>qualified lead generated through your</span>
+                                <span>platform, ensuring lucrative returns for</span>
+                                <span>publishers.</span>
+                            </p>
+                        </div>
+                        <div class="content-card1_finances">
+                            <h4>Finances</h4>
+                            <picture>
+                                <source srcset="img/total.webp" type="image/webp"><img src="img/total.jpg" alt="jpg">
+                            </picture>
+                            <p>Statistic for commissions</p>
+                            <ul>
+                                <li>
+                                    <span>Received payouts</span>
+                                </li>
+                                <li>
+                                    <span>Withdraw funds</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cause-partnership_content-card2">
+                        <div class="content-card1_items padding">
+                            <h3 class="content-card-title">User-friendly platform</h3>
+                            <p class="content-card-text">
+                                <span>Our intuitive affiliate dashboard simplifies</span>
+                                <span>tracking and managing your commissions</span>
+                                <span> and performance metrics in real time.</span>
+                            </p>
+                        </div>
+                        <div class="content-card2_graph">
+                            <h4>Number of qualified leads</h4>
+                            <picture>
+                                <source srcset="img/leads.webp" type="image/webp"><img src="img/leads.jpg" alt="jpg">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="guide">
+                <div class="guide_conteiner">
+                    <div class="guide_title">
+                        <h2>Affiliate program guide for publishers </h2>
+                        <p>Learn how to register, operate, and receive payments using our user-friendly system.</p>
+                        <div class="guide_title-buttons">
+                            <button class="title-buttons_desktop" type="button">Desktop</button>
+                            <button class="title-buttons_mobile" type="button">Mobile</button>
+                        </div>
+                    </div>
+                    <div class="guide_content">
+                        <div class="guide_register">
+                            <div class="register_step">
+                                <p>Step</p>
+                                <button>1</button>
+                                <span></span>
+                                <button>2</button>
+                                <span></span>
+                                <button>3</button>
+                                <span></span>
+                                <button>4</button>
+                                <span></span>
+                                <button>5</button>
+                            </div>
+                            <div class="register_items">
+                                <h3>Register in our program</h3>
+                                <p>
+                                    <span>Go to the registration page and fill it out with your</span>
+                                    <span>information. Upon successful confirmation, another</span>
+                                    <span>form will appear.</span>
+                                </p>
+                                <button id="pp" type="submit" class="register_items-start-button">Start now</button>
+                                <div class="register_items-arrow-buttons">
+                                    <button class="prev" id="prev" type="button"><svg class='guide-arrows-button'>
+                                            <use xlink:href='img/sprite.svg#arrow-left'>
+                                        </svg></button>
+                                    <button class="next" id="next" type="button"><svg class='guide-arrows-button'>
+                                            <use xlink:href='img/sprite.svg#arrow-right'>
+                                        </svg></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="guide_slider">
+                            <picture>
+                                <source srcset="img/imageD-slide1.webp" type="image/webp"><img class="imgD img1"
+                                    src="img/imageD-slide1.jpg" alt="jpg slide #1">
+                            </picture>
+                            <picture>
+                                <source srcset="img/imageD-slide2.webp" type="image/webp"><img class="imgD img2"
+                                    src="img/imageD-slide2.jpg" alt="jpg slide #2">
+                            </picture>
+                            <picture>
+                                <source srcset="img/imageD-slide3.webp" type="image/webp"><img class="imgD img3"
+                                    src="img/imageD-slide3.jpg" alt="jpg slide #3">
+                            </picture>
+                            <picture>
+                                <source srcset="img/imageD-slide4.webp" type="image/webp"><img class="imgD img4"
+                                    src="img/imageD-slide4.jpg" alt="jpg slide #4">
+                            </picture>
+                            <picture>
+                                <source srcset="img/imageD-slide5.webp" type="image/webp"><img class="imgD img5"
+                                    src="img/imageD-slide5.jpg" alt="jpg slide #5">
+                            </picture>
+                            <picture>
+                                <source srcset="img/imageM-slide1.webp" type="image/webp"><img class="imgM imgM1"
+                                    src="img/imageM-slide1.jpg" alt="jpg slide #1">
+                            </picture>
+                            <picture>
+                                <source srcset="img/imageM-slide2.webp" type="image/webp"><img class="imgM imgM2"
+                                    src="img/imageM-slide2.jpg" alt="jpg slide #2">
+                            </picture>
+                            <picture>
+                                <source srcset="img/imageM-slide3.webp" type="image/webp"><img class="imgM imgM3"
+                                    src="img/imageM-slide3.jpg" alt="jpg slide #3">
+                            </picture>
+                            <picture>
+                                <source srcset="img/imageM-slide4.webp" type="image/webp"><img class="imgM imgM4"
+                                    src="img/imageM-slide4.jpg" alt="jpg slide #4">
+                            </picture>
+                            <picture>
+                                <source srcset="img/imageM-slide5.webp" type="image/webp"><img class="imgM imgM5"
+                                    src="img/imageM-slide5.jpg" alt="jpg slide #5">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="feature">
+                <div class="feature_conteiner">
+                    <div class="feature_title">
+                        <h2>Key features of GFLeads affiliate program for publishers</h2>
+                    </div>
+                    <div class="feature_content">
+                        <div class="feature_cards">
+                            <svg class='feature_card-icon'>
+                                <use xlink:href='img/sprite.svg#report-line'>
+                            </svg>
+                            <h4>Real-time reporting</h4>
+                            <p>Publishers can track conversions, traffic, and</p>
+                            <p>earnings in real-time using our state-of-the-art</p>
+                            <p>analytics dashboard</p>
+                        </div>
+                        <div class="feature_cards">
+                            <svg class='feature_card-icon'>
+                                <use xlink:href='img/sprite.svg#service_line'>
+                            </svg>
+                            <h4>Dedicated support team</h4>
+                            <p>GFLeads provides a dedicated affiliate support</p>
+                            <p>team to assist publishers in maximizing their</p>
+                            <p>earnings</p>
+                        </div>
+                        <div class="feature_cards">
+                            <svg class='feature_card-icon'>
+                                <use xlink:href='img/sprite.svg#settings_line'>
+                            </svg>
+                            <h4>Customizable campaigns</h4>
+                            <p>Publishers can tailor promotional campaigns</p>
+                            <p>with flexible creatives and marketing tools</p>
+                            <p>provided by GFLeads to suit their audience</p>
+                        </div>
+                        <div class="feature_cards">
+                            <svg class='feature_card-icon'>
+                                <use xlink:href='img/sprite.svg#megaphone_line'>
+                            </svg>
+                            <h4>Diverse advertiser network</h4>
+                            <p>Publishers gain access to a wide range of</p>
+                            <p>advertisers across various verticals, such as</p>
+                            <p>HVAC, Plumbing, Electrical, and more</p>
+                        </div>
+                        <div class="feature_cards">
+                            <svg class='feature_card-icon'>
+                                <use xlink:href='img/sprite.svg#hands_line'>
+                            </svg>
+                            <h4>Support</h4>
+                            <p>Join our community and assist individuals</p>
+                            <p>in distress by providing essential service</p>
+                            <p>contacts while earning commissions</p>
+                        </div>
+                        <div class="feature_cards">
+                            <svg class='feature_card-icon'>
+                                <use xlink:href='img/sprite.svg#wallet_line'>
+                            </svg>
+                            <h4>Timely payouts</h4>
+                            <p>GFLeads guarantees regular, on-time payouts,d</p>
+                            <p>ensuring reliable revenue streams for publishers</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="advertise">
+                <div class="advertise_conteiner">
+                    <div class="advertise_title">
+                        <h2>GFLeads - advertised service</h2>
+                    </div>
+                    <div class="advertise_content">
+                        <div class="advertise_cards">
+                            <h4>Public adjuster services</h4>
+                            <svg class='advertise_icons'>
+                                <use xlink:href='img/sprite.svg#public-services'>
+                            </svg><br>
+                            <small>Lead commission:</small><br>
+                            <span>$100 - $1.700</span>
+                            <a href="#">View commission rates</a>
+                            <hr>
+                            <p>Public Adjuster Services are professionals who</p>
+                            <p>assist individuals in the process of filing and</p>
+                            <p>settling insurance claims for damages from</p>
+                            <p>natural disasters or other events</p>
+                            <button>Learn more</button>
+                        </div>
+                        <div class="advertise_cards">
+                            <h4>Water damage mitigation</h4>
+                            <svg class='advertise_icons'>
+                                <use xlink:href='img/sprite.svg#Icon-house'>
+                            </svg><br>
+                            <small>Lead commission:</small><br>
+                            <span>$500 - $1.200</span>
+                            <a href="#">View commission rates</a>
+                            <hr>
+                            <p>Water Damage Mitigation entails swift response</p>
+                            <p>and effective solutions to minimize water-</p>
+                            <p>related damages, preserving valuable property</p>
+                            <p>and structures</p>
+                            <button>Learn more</button>
+                        </div>
+                        <div class="advertise_cards">
+                            <h4>Water damage restoration</h4>
+                            <svg class='advertise_icons'>
+                                <use xlink:href='img/sprite.svg#Icon-pump'>
+                            </svg><br>
+                            <small>Lead commission:</small><br>
+                            <span>$500 - $1.000</span>
+                            <a href="#">View commission rates</a>
+                            <hr>
+                            <p>This service includes water extraction, drying,</p>
+                            <p>structural repair, and preventative measures</p>
+                            <p>to mitigate future issues, ensuring</p>
+                            <p>a comprehensive restoration process</p>
+                            <button>Learn more</button>
+                        </div>
+                        <div class="advertise_cards">
+                            <h4>Leak detection</h4>
+                            <svg class='advertise_icons'>
+                                <use xlink:href='img/sprite.svg#Icon-tap'>
+                            </svg><br>
+                            <small>Lead commission:</small><br>
+                            <span>$50 - $150</span>
+                            <a href="#">View commission rates</a>
+                            <hr>
+                            <p>Leak detection involves advanced techniques</p>
+                            <p>to identify and locate hidden water leaks within</p>
+                            <p>a home. Professionals can pinpoint leaks swiftly</p>
+                            <p>and accurately</p>
+                            <button>Learn more</button>
+                        </div>
+                        <div class="advertise_cards">
+                            <h4>Roof leaking repair</h4>
+                            <svg class='advertise_icons'>
+                                <use xlink:href='img/sprite.svg#Icon-roof'>
+                            </svg><br>
+                            <small>Lead commission:</small><br>
+                            <span>$75 - $150</span>
+                            <a href="#">View commission rates</a>
+                            <hr>
+                            <p>Roof leaking repair focuses on addressing</p>
+                            <p>issues with water penetration through the roof</p>
+                            <p>of a building. Professionals employ various</p>
+                            <p>methods to identify and fix leaks</p>
+                            <button>Learn more</button>
+                        </div>
+                        <div class="advertise_cards">
+                            <h4>Plumbing services</h4>
+                            <svg class='advertise_icons'>
+                                <use xlink:href='img/sprite.svg#Icon-pipe'>
+                            </svg><br>
+                            <small>Lead commission:</small><br>
+                            <span>$75 - $150</span>
+                            <a href="#">View commission rates</a>
+                            <hr>
+                            <p>Plumbing services encompass a wide range</p>
+                            <p>of solutions aimed at maintaining and repairing</p>
+                            <p>plumbing systems within residential and</p>
+                            <p>commercial properties</p>
+                            <button>Learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="choose">
+                <div class="choose_conteiner">
+                    <div class="choose_img">
+                        <picture>
+                            <source srcset="img/image-iPhone.webp" type="image/webp"><img src="img/image-iPhone.jpg"
+                                alt="">
+                        </picture>
+                    </div>
+                    <div class="choose_content">
+                        <h2>Why choose GFLeads <br> as your affiliate partner</h2>
+                        <p>GFLeads stands out as a leading affiliate partner by delivering high-quality,</p>
+                        <p>verified leads backed by our proprietary vetting system and cutting-edge</p>
+                        <p>technology. Our transparent, competitive payout structures allow you</p>
+                        <p>to maximize your returns, while seamless integration and targeted campaigns</p>
+                        <p>ensure efficiency. Partner with GFLeads and leverage our innovative tools and</p>
+                        <p>proven strategies to scale your affiliate marketing efforts.</p><br>
+                        <svg class='choose_icons'>
+                            <use xlink:href='img/sprite.svg#good-icon'>
+                        </svg>
+                        <span>Network of over 600 partners and campaigns</span><br>
+                        <svg class='choose_icons'>
+                            <use xlink:href='img/sprite.svg#good-icon'>
+                        </svg>
+                        <span>States including Florida, Texas and California</span><br>
+                        <svg class='choose_icons'>
+                            <use xlink:href='img/sprite.svg#good-icon'>
+                        </svg>
+                        <span>Dedicated to driving success through optimized <br> lead generation and high-converting
+                            offers</span>
+                        <button>Join network now</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="video-presentation">
+                <div class="video-presentation_conteiner">
+                    <div class="video-presentation_content">
+                        <h2>Affiliate video presentation & tutorials</h2>
+                        <h4>Affiliate program overview: boost your earnings by sharing leads!</h4>
+                        <p>In this video, we’ll walk you through our affiliate program, <span>from signing up to driving
+                                traffic
+                                and
+                                earning money when leads turn into</span></p>
+                        <p>claims. See how easy it is to get started, post targeted ads, <span> and watch your referrals
+                                generate real
+                                results. Whether you’re new to</span></p>
+                        <p>affiliate marketing or a seasoned pro, our tutorials and <span>success stories will guide you
+                                on
+                                maximizing
+                                your potential with GFLeads!</span></p>
+                    </div>
+                    <div class="video-presentation_video-list">
+                        <div class="video-list_video">
+                            <picture>
+                                <source srcset="img/img-blog-1.webp" type="image/webp"><img src="img/img-blog-1.jpg"
+                                    alt="jpg">
+                            </picture>
+                            <svg class='icon-play'>
+                                <use xlink:href='img/sprite.svg#play-icon'>
+                            </svg>
+                            <p>How can you maximize your earnings?</p>
+                        </div>
+                        <div class="video-list_video">
+                            <picture>
+                                <source srcset="img/img-blog-2.webp" type="image/webp"><img src="img/img-blog-2.jpg"
+                                    alt="jpg">
+                            </picture>
+                            <svg class='icon-play'>
+                                <use xlink:href='img/sprite.svg#play-icon'>
+                            </svg>
+                            <p>How are service providers vetted?</p>
+                        </div>
+                        <div class="video-list_video">
+                            <picture>
+                                <source srcset="img/img-blog-3.webp" type="image/webp"><img src="img/img-blog-3.jpg"
+                                    alt="jpg">
+                            </picture>
+                            <svg class='icon-play'>
+                                <use xlink:href='img/sprite.svg#play-icon'>
+                            </svg>
+                            <p>How important is it to focus on urgency?</p>
+                        </div>
+                    </div>
+                    <div class="video-presentation_bottom-button">
+                        <button>Watch all videos</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="benefits">
+                <div class="benefits_conteiner">
+                    <h2>Get these benefits with GFLeads</h2>
+                    <div class="benefits_content">
+                        <div class="content_items">
+                            <svg class='content_icons'>
+                                <use xlink:href='img/sprite.svg#analitic-icon'>
+                            </svg>
+                            <h4>Real-time analytics</h4>
+                            <p>Track your performance in real-time through our</p>
+                            <p>user-friendly dashboard, ensuring transparency</p>
+                            <p>and informed decision-making</p>
+                        </div>
+                        <div class="content_items">
+                            <svg class='content_icons'>
+                                <use xlink:href='img/sprite.svg#Icon-user-manager'>
+                            </svg>
+                            <h4>Exclusive high-quality leads</h4>
+                            <p>Gain access to vetted, high-quality leads that</p>
+                            <p>match your vertical and target region, increasing</p>
+                            <p>your potential for conversions and profits</p>
+                        </div>
+                        <div class="content_items">
+                            <svg class='content_icons'>
+                                <use xlink:href='img/sprite.svg#icon-user'>
+                            </svg>
+                            <h4>Dedicated support</h4>
+                            <p>Access a dedicated account manager to assist</p>
+                            <p>you in optimizing your lead sales and maximizing</p>
+                            <p>your earnings</p>
+                        </div>
+                        <div class="content_items">
+                            <svg class='content_icons'>
+                                <use xlink:href='img/sprite.svg#Icon-dollar-increase'>
+                            </svg>
+                            <h4>Increased revenue</h4>
+                            <p>Monetize your traffic with high-converting,</p>
+                            <p>exclusive leads from top industries</p>
+                        </div>
+                        <div class="content_items">
+                            <svg class='content_icons'>
+                                <use xlink:href='img/sprite.svg#Icon-settings'>
+                            </svg>
+                            <h4>Flexible promotional options</h4>
+                            <p>Choose from a variety of marketing materials</p>
+                            <p>to optimize your campaign</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reviews">
+                <div class="reviews_conteiner">
+                    <h2>Client Reviews</h2>
+                    <div class="reviews_content">
+                        <div class="content_reviews-cards">
+                            <svg class='reviews-cards_double-quotes-icon'>
+                                <use xlink:href='img/sprite.svg#Icon-double-quotes'>
+                            </svg>
+                            <p>My experience with GFLeads has been exceptional.</p>
+                            <p>In just the first month, our plumbing services business</p>
+                            <p>saw a significant increase in leads. GFLeads has been</p>
+                            <p>instrumental in connecting us with qualified clients and</p>
+                            <p>streamlining our workflow. Highly recommend to any </p>
+                            <p class="reviews-cards_margin-bottom-p1">service provider looking to expand their
+                                clientele.</p>
+                            <picture>
+                                <source srcset="img/Avatar-1.webp" type="image/webp"><img src="img/Avatar-1.jpg"
+                                    alt="jpg">
+                            </picture>
+                            <span><svg class='reviews-cards_star-icons'>
+                                    <use xlink:href='img/sprite.svg#Icon-star-fill'>
+                                </svg></span>
+                            <span><svg class='reviews-cards_star-icons'>
+                                    <use xlink:href='img/sprite.svg#Icon-star-fill'>
+                                </svg></span>
+                            <span><svg class='reviews-cards_star-icons'>
+                                    <use xlink:href='img/sprite.svg#Icon-star-fill'>
+                                </svg></span>
+                            <span><svg class='reviews-cards_star-icons'>
+                                    <use xlink:href='img/sprite.svg#Icon-star-fill'>
+                                </svg></span>
+                            <span><svg class='reviews-cards_star-icons'>
+                                    <use xlink:href='img/sprite.svg#Icon-star-fill'>
+                                </svg></span>
+                            <h4>Daniel Martinez</h4>
+                            <h5>Plumbing Services Manager</h5>
+                        </div>
+                        <div class="content_reviews-cards">
+                            <svg class='reviews-cards_double-quotes-icon'>
+                                <use xlink:href='img/sprite.svg#Icon-double-quotes'>
+                            </svg>
+                            <p>Thanks to GFLeads, my roofing repair business has</p>
+                            <p>taken off like never before. Within weeks of joining the</p>
+                            <p>platform, I earned around $5,000 in additional revenue.</p>
+                            <p>I recently shared the phone number of Public Adjuster</p>
+                            <p>Services with someone struggling with their insurance</p>
+                            <p>assessment. Not only did I assist the individual, but</p>
+                            <p class="reviews-cards_margin-bottom-p2">I also earned a commission myself. Highly
+                                recommend!</p>
+                            <picture>
+                                <source srcset="img/Avatar-2.webp" type="image/webp"><img src="img/Avatar-2.jpg"
+                                    alt="jpg">
+                            </picture>
+                            <span><svg class='reviews-cards_star-icons'>
+                                    <use xlink:href='img/sprite.svg#Icon-star-fill'>
+                                </svg></span>
+                            <span><svg class='reviews-cards_star-icons'>
+                                    <use xlink:href='img/sprite.svg#Icon-star-fill'>
+                                </svg></span>
+                            <span><svg class='reviews-cards_star-icons'>
+                                    <use xlink:href='img/sprite.svg#Icon-star-fill'>
+                                </svg></span>
+                            <span><svg class='reviews-cards_star-icons'>
+                                    <use xlink:href='img/sprite.svg#Icon-star-fill'>
+                                </svg></span>
+                            <span><svg class='reviews-cards_star-icons'>
+                                    <use xlink:href='img/sprite.svg#Icon-star-fill'>
+                                </svg></span>
+                            <h4>Michael Thompson</h4>
+                            <h5>Roof Leaking Repair Technician</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="earn">
+                <div class="earn_conteiner">
+                    <div class="earn_earn-content">
+                        <div class="earn-content_img">
+                            <picture>
+                                <source srcset="img/track-perfomance.webp" type="image/webp"><img
+                                    src="img/track-perfomance.jpg" alt="jpg">
+                            </picture>
+                        </div>
+                        <div class="earn-content_items">
+                            <h2>Earn more with our affiliate program for publishers</h2>
+                            <h4>Registration takes just 2 minutes!</h4>
+                            <svg class='items_good-icons'>
+                                <use xlink:href='img/sprite.svg#good-icon'>
+                            </svg>
+                            <span>Commissions for every partner you refer</span><br>
+                            <svg class='items_good-icons'>
+                                <use xlink:href='img/sprite.svg#good-icon'>
+                            </svg>
+                            <span>Easy-to-use interface to manage your referral network</span><br>
+                            <svg class='items_good-icons'>
+                                <use xlink:href='img/sprite.svg#good-icon'>
+                            </svg>
+                            <span>Support to maximize your success 24/7 </span>
+                            <button>Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="blog">
+                <div class="blog_conteiner">
+                    <h2>Blog</h2>
+                    <div class="blog_blog-content">
+                        <div class="blog-content_blog-cards">
+                            <picture>
+                                <source srcset="img/img-blog-1.webp" type="image/webp"><img src="img/img-blog-1.jpg"
+                                    alt="jpg">
+                            </picture>
+                            <div class="blog-cards_card-texts">
+                                <small>01 October, 2024</small>
+                                <h4>What should you do when you <br> detect water damage in your home?</h4>
+                                <p>Water damage is one of the most destructive and</p>
+                                <p>costly issues a homeowner can face.</p>
+                                <button type="button">Read more</button>
+                            </div>
+                        </div>
+                        <div class="blog-content_blog-cards">
+                            <picture>
+                                <source srcset="img/img-blog-2.webp" type="image/webp"><img src="img/img-blog-2.jpg"
+                                    alt="jpg">
+                            </picture>
+                            <div class="blog-cards_card-texts">
+                                <small>01 October, 2024</small>
+                                <h4>How early leak detection can save <br> you thousands in repairs</h4>
+                                <p>Water damage is one of the most destructive and</p>
+                                <p>costly issues a homeowner can face.</p>
+                                <button type="button">Read more</button>
+                            </div>
+                        </div>
+                        <div class="blog-content_blog-cards">
+                            <picture>
+                                <source srcset="img/img-blog-3.webp" type="image/webp"><img src="img/img-blog-3.jpg"
+                                    alt="jpg">
+                            </picture>
+                            <div class="blog-cards_card-texts">
+                                <small>01 October, 2024</small>
+                                <h4>Why routine plumbing maintenance <br> is essential for every homeowner</h4>
+                                <p>Water damage is one of the most destructive and</p>
+                                <p>costly issues a homeowner can face.</p>
+                                <button type="button">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="faq">
+                <div class="faq_conteiner">
+                    <h2>FAQ for publishers</h2>
+                    <div class="faq_faq-content">
+                        <div class="faq-content_items padding1">
+                            <h4>What is the GFLeads affiliate program for publishers?</h4>
+                            <p>The GFLeads Affiliate Program is designed for publishers who want</p>
+                            <p>to monetize their websites by promoting our services across multiple</p>
+                            <p>industries like HVAC, plumbing, electrical, and more. As a publisher, you earn</p>
+                            <p>commissions by generating qualified leads through your platform.</p>
+                        </div>
+                        <div class="faq-content_items">
+                            <h4>How can publishers join the GFLeads Affiliate Program?</h4>
+                            <p>Publishers can easily sign up by [clicking here] to fill out the registration form.</p>
+                            <p>Once approved, you will gain access to your personal dashboard where you can</p>
+                            <p>track your performance, manage campaigns, and receive promotional materials.</p><br>
+                        </div>
+                        <div class="faq-content_items padding2">
+                            <h4>How do publishers earn commissions with GFLeads?</h4>
+                            <p>As a publisher, you will earn commissions for every qualified lead generated</p>
+                            <p>through your referral links. Our competitive payout rates ensure you maximize</p>
+                            <p>your revenue potential. Payouts are sent regularly and can be tracked in real</p>
+                            <p>time via the affiliate dashboard.</p>
+                        </div>
+                        <div class="faq-content_items margin">
+                            <h4>What tools and support do publishers receive from GFLeads?</h4>
+                            <p>GFLeads offers publishers a comprehensive set of tools, including real-time</p>
+                            <p>reporting, customizable banners, and tracking links. In addition, our dedicated</p>
+                            <p>affiliate support team is always available to help you optimize your campaigns and</p>
+                            <p>maximize your earnings.</p>
+                        </div>
+                        <div class="faq-content_items-other-size">
+                            <h4>Can publishers use the GFLeads mobile app to manage <br> their affiliate accounts?</h4>
+                            <p>bsolutely! Our mobile app, available for iOS and Android, lets publishers</p>
+                            <p>A manage their campaigns on the go. You can check your stats, receive</p>
+                            <p>notifications, and make adjustments to campaigns right from your phone.</p><br>
+                        </div>
+
+
+                        <div class="faq-content_items-other-size">
+                            <h4>What types of industries can publishers promote through <br> GFLeads?</h4>
+                            <p>GFLeads offers a wide range of industry-specific affiliate programs, including</p>
+                            <p>HVAC, plumbing, electrical, handyman services, appliance repair, pool and spa,</p>
+                            <p>pest control, and more. You can choose which services best align with your</p>
+                            <p>audience.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="other-audiences">
+                <div class="other-audiences_conteiner">
+                    <h2>Other audiences we cater</h2>
+                    <div class="other-audiences_content">
+                        <div class="other-audiences_audience-cards">
+                            <picture>
+                                <source srcset="img/img-online-market.webp" type="image/webp"><img
+                                    src="img/img-online-market.jpg" alt="jpg">
+                            </picture>
+                            <svg class='audience-cards_icon1-inside-img'>
+                                <use xlink:href='img/sprite.svg#icon1-inside-img'>
+                            </svg>
+                            <div class="audience-cards_inside-items">
+                                <h4>Online marketers</h4>
+                                <p>Marketers drive traffic via digital</p>
+                                <p>channels and earn by referring</p>
+                                <p>qualified leads to our services</p>
+                                <button type="button">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="other-audiences_audience-cards">
+                            <picture>
+                                <source srcset="img/img-servise-provide.webp" type="image/webp"><img
+                                    src="img/img-servise-provide.jpg" alt="jpg">
+                            </picture>
+                            <svg class='audience-cards_icon2-inside-img'>
+                                <use xlink:href='img/sprite.svg#icon2-inside-img'>
+                            </svg>
+                            <div class="audience-cards_inside-items margin-top">
+                                <h4>Service providers</h4>
+                                <p>Contractors and service providers</p>
+                                <p>can refer clients needing public</p>
+                                <p>adjusting or restoration and earn</p>
+                                <p>commissions</p>
+                                <button type="button">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="other-audiences_audience-cards">
+                            <picture>
+                                <source srcset="img/img-ind-adju.webp" type="image/webp"><img src="img/img-ind-adju.jpg"
+                                    alt="jpg">
+                            </picture>
+                            <svg class='audience-cards_icon3-inside-img'>
+                                <use xlink:href='img/sprite.svg#icon3-inside-img'>
+                            </svg>
+                            <div class="audience-cards_inside-items">
+                                <h4>Independent adjusters</h4>
+                                <p>Adjusters can refer clients to our</p>
+                                <p>services and earn commissions for</p>
+                                <p>each successful referral</p>
+                                <button type="button">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="other-audiences_other-audience-card">
+                            <h4>Not sure which program is right for you? </h4>
+                            <p>Identify your status and choose the</p>
+                            <p>perfect program for you for free</p>
+                            <form>
+                                <input class="contact-input-text" type="text" placeholder="Full name">
+                                <input class="contact-input-tel" type="phone" placeholder="Phone number">
+                                <input class="contact-input-mail" type="email" placeholder="E-mail">
+                                <button class="contact-submit" type="button">Request info</button>
+                            </form>
+                            <span>By submitting this form, you agree to our <br> <a href="#">Privacy Policy</a></span>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer_conteiner">
+                <div class="footer_common-content">
+                    <div class="footer_media-contacts">
+                        <svg class='footer-logo-icon'>
+                            <use xlink:href='img/sprite.svg#logo-footer'>
+                        </svg>
+                        <p>Maximize your earnings</p>
+                        <p>with our Referral program</p>
+                        <div class="media-contact_icons">
+                            <a href="#"><svg class='footer-app-store-icon'>
+                                    <use xlink:href='img/sprite.svg#app-store-icon'>
+                                </svg></a>
+                            <a href="#"><svg class='footer-google-play-icon'>
+                                    <use xlink:href='img/sprite.svg#Google-Play-icon'>
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="footer_content">
+                        <div class="footer_text-items">
+                            <nav class="footer_nav">
+                                <ul class="footer_list-items" data-spollers="790,max">
+                                    <li data-spoller><a href="#">Home</a></li>
+                                    <div class="spoller">
+                                        <li><a href="#">Offers</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Knoweledge base</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                    </div>
+                                </ul>
+                            </nav>
+                            <ul class="footer_twice-list" data-spollers="790,max">
+                                <li data-spoller>Publishers</li>
+                                <div class="spoller">
+                                    <li>Online marketers</li>
+                                    <li>Service poviders</li>
+                                    <li>Independent adjusters</li>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="footer_contacts">
+                            <p>Call if you have any questions:</p>
+                            <a href="#"><svg class='footer-phone-icon'>
+                                    <use xlink:href='img/sprite.svg#phone-footer'>
+                                </svg>+1 (888) 918 0798</a>
+                            <div class="contacts-icons">
+                                <a href="#"><svg class='footer-instagram-icon'>
+                                        <use xlink:href='img/sprite.svg#icon-instagram'>
+                                    </svg></a>
+                                <a href="#"><svg class='footer-x-icon'>
+                                        <use xlink:href='img/sprite.svg#X-footer'>
+                                    </svg></a>
+                                <a href="#"><svg class='footer-youtube-icon'>
+                                        <use xlink:href='img/sprite.svg#youtube-icon'>
+                                    </svg></a>
+                                <a href="#"><svg class='footer-facebook-icon'>
+                                        <use xlink:href='img/sprite.svg#icon-facebook'>
+                                    </svg></a>
+                                <a href="#"><svg class='footer-telegram-icon'>
+                                        <use xlink:href='img/sprite.svg#icon-telegram'>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer_undertexts">
+                    <p>© 2024 GFLeads. All rights reserved</p>
+                    <p>Terms & Conditions <a href="#">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/app.min.js?_v=20250214055138"></script>
+</body>
+
+</html>
